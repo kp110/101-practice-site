@@ -1,0 +1,183 @@
+/*** BASE STYLES ***/
+
+@font-face{
+	font-family: 'Wisdom Script';
+	src: url('../fonts/wisdom-script.otf') format('opentype');
+}
+
+body{
+    font-family: 'Montserrat', sans-serif, Helvetica, Arial;
+    color: black;
+} 
+
+h1, h2, h3, h4{
+  color: black;
+  text-transform: uppercase;
+  font-weight: 700; /*bold*/
+}
+
+h1{
+  font-size: 30px;
+}
+
+h2{
+  font-size: 24px;
+}
+
+h3{
+  font-size: 18px;
+}
+
+h4{
+  font-size: 12px;
+}
+
+p{
+  font-size: 14px;
+  line-height: 21px;
+  padding: 0 30px;
+}
+
+/*** GRID ***/
+  
+.full-width{
+  width: 1200px;
+  margin: 0 auto;
+}
+
+.half-width{
+  width: 600px;
+  float: left;
+}
+
+.third-width{
+  width: 399px;
+  float: left;
+  height: auto;
+}
+  
+/*** HEADER SECTION ***/
+header{
+  height:110px;
+  margin: 0 auto;
+}
+
+header h1{
+  margin: 0;
+  padding: 38px 0;
+  float: left;
+}
+
+header h1 span{
+  color: #77a466;
+}
+
+nav{
+  float: right;
+  padding: 46px 0;
+}
+
+nav ul{
+  margin: 0;
+  padding: 0;
+}
+
+nav ul li{
+  display: inline;
+}
+  
+nav ul li a{
+  text-transform: uppercase;
+  text-decoration: none;
+  font-size: 14px;
+  color: #77a466;
+  padding: 0 10px;
+  font-weight: bold;
+}
+
+/*** WELCOME SECTION ***/
+#top{
+  margin: 0 auto;
+  clear: both;
+}
+
+#image{
+  height: auto;
+}
+#image img{
+  border-top: 3px solid #77a466;
+  border-bottom: 3px solid #77a466;
+}
+
+#image h3{
+  color: #77a466;
+  padding: 5px o;
+  text-align: left;
+}
+
+#image p{
+  padding: 0;
+  font-size: 16px;
+  line-height: 25px;
+}
+
+/*** SPECIALS / REVIEWS / CONTACT ***/
+#bottom{
+  margin: 0 auto;
+  clear: both;
+}
+
+.third-width{
+  border-top: 1px solid #eee;
+  float: left;
+}
+
+#section-one h4{
+  padding: 10px 0px;
+}
+#section-two h4, #section-three h4{
+  padding: 10px 30px;
+} 
+
+#section-two {
+	border-left: 1px solid #eee;
+	border-right: 1px solid #eee;
+}
+
+.menu{
+  list-style: none;
+  padding: 0;
+}
+
+.menu li{
+  color: #77a466;
+  padding: 10px 0;
+}
+
+.reviews{
+  color: #333;
+  font-size: 16px;
+  line-height: 21px;
+}
+
+.address{
+  color: #333;
+  font-size: 16px;
+  line-height: 21px;
+}
+  
+/*** FOOTER ***/
+footer{
+  height: 50px;
+  margin: 0 auto;
+  text-align: center;
+  border-top: 3px solid #eee;
+  clear: both;
+}
+
+footer span{
+  color: #77a466;
+  text-transform: lowercase;
+  font-family: 'Wisdom Script', cursive;
+  font-size: 14px;
+}
